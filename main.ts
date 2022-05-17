@@ -1,0 +1,10 @@
+basic.forever(function () {
+    music.playTone(349, music.beat(BeatFraction.Whole))
+    basic.pause(100)
+    music.playTone(523, music.beat(BeatFraction.Whole))
+    basic.pause(100)
+    music.playTone(440, music.beat(BeatFraction.Whole))
+    basic.pause(100)
+    music.playTone(587, music.beat(BeatFraction.Whole))
+    basic.pause(100)
+})
